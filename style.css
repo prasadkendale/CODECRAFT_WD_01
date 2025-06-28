@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+  text-align: center;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background-color: #000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, #2196f3, #e3f2fd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 80px;
+  flex-direction: column;
+}
+
+.content {
+  height: 1000px;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
